@@ -1,6 +1,6 @@
 <template>
   <div class="grey darken-1 empty-layout">
-    <router-view />
+    <router-view/>
   </div>
 </template>
 
@@ -16,7 +16,6 @@ export default {
   watch: {
     error(fbError) {
       this.$error(messages[fbError.code] || 'Что-то пошло не так')
-      console.log(fbError);
     }
   }
 }
