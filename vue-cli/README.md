@@ -23,6 +23,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 <!-- ----------------------------------------------------------------------- -->
 
 
-
-
-  
+firebase deploy
+f4641e120e3ebf28bf00c19071794ca3
+http://data.fixer.io/api/latest?access_key=${key}&symbols=USD,EUR,RUB
+http://data.fixer.io/api/latest?access_key=f4641e120e3ebf28bf00c19071794ca3&symbols=USD,EUR,RUB
